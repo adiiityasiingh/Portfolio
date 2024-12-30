@@ -48,7 +48,7 @@ const Hero = () => {
         <img 
          src="https://i.ibb.co/wWv1xrr/hero-image.jpg"
           alt="Professional"
-          className="rounded-lg shadow-xl max-w-md mx-auto animate-fade-up delay-200"
+          className="rounded-full shadow-xl max-w-80 mx-auto animate-fade-up delay-200"
         />
       </div>
     </div>
