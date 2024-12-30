@@ -46,7 +46,7 @@ const Hero = () => {
       
       <div className="md:w-1/2 mt-8 md:mt-0">
         <img 
-          src= {"src/components/hero-image.jpg"} 
+         src="https://i.ibb.co/wWv1xrr/hero-image.jpg"
           alt="Professional"
           className="rounded-lg shadow-xl max-w-md mx-auto animate-fade-up delay-200"
         />
