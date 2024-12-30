@@ -46,8 +46,8 @@ const Hero = () => {
       
       <div className="md:w-1/2 mt-8 md:mt-0">
         <img 
-          src="/hero-image.jpg" 
-          alt="Professional headshot"
+          src="src/components/hero-image.jpg" 
+          alt="Professional"
           className="rounded-lg shadow-xl max-w-md mx-auto animate-fade-up delay-200"
         />
       </div>
