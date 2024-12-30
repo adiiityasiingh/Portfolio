@@ -7,13 +7,13 @@ const experiences = [
     title: "Summer Undergraduate Research Intern (SURF)",
     company: "Indian Institute of Technology Delhi",
     period: "Jun 2024 - Aug 2024",
-    description: "Developed and maintained client-facing web applications"
+    description: "Utilized advanced tensiometric sensors and hardware to accurately monitor soil quality and moisture levels, enabling precise environmental assessments for optimized plant growth conditions. "
   },
   {
     title: "React Developer",
     company: "Freelance",
     period: "2024-Present",
-    description: "Worked on frontend development using React and JavaScript"
+    description: "Designed and developed responsive and dynamic user interfaces using React.js and JavaScript, ensuring seamless user experiences across devices. Implemented reusable components and optimized frontend performance, resulting in 30% faster load times and improved application scalability."
   }
 ];
 

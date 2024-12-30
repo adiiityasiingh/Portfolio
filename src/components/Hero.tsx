@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, MapPin, Code2, } from 'lucide-react';
 import '../styles/gradients.css';
 import '../styles/animations.css';
 
@@ -11,11 +11,18 @@ const Hero = () => {
           Hi, I'm <span className="gradient-text">Aditya Singh</span>
         </h1>
         <p className="text-xl text-gray-300 animate-fade-right delay-100">
-          Full Stack Developer passionate about creating impactful web solutions
+        A highly motivated and technically skilled developer with hands-on experience in both frontend and backend technologies, along with strong expertise in data structures and algorithms.
         </p>
         
         <div className="flex flex-col space-y-3">
-          <div className="flex items-center space-x-3 animate-fade-up delay-200">
+        <div className="flex items-center space-x-3 animate-fade-up delay-200">
+            <Code2 className="w-5 h-5 text-gray-300" />
+            <a href="www.naukri.com/code360/profile/adiiityasiingh" className="text-blue-300 hover:text-blue-200 transition-colors">
+              Code360/adiiityasiingh
+            </a>
+          </div>
+          
+        <div className="flex items-center space-x-3 animate-fade-up delay-200">
             <Github className="w-5 h-5 text-gray-300" />
             <a href="https://github.com/yourusername" className="text-blue-300 hover:text-blue-200 transition-colors">
               github.com/adiiityasiingh
