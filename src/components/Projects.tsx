@@ -15,7 +15,7 @@ const projects = [
     description: "Developed a real-time live tracking system using Socket.io, Node.js, Express.js, and EJS, enabling instant updates and seamless communication between clients and servers",
     tech: ["NodeJS", "ExpressJS", "Tailwind CSS","Socket.Io","JavaScript"],
     github: "https://github.com/adiiityasiingh/Livetracker",
-    live: "https://task-manager-demo.com"
+    live: "https://livetracker-5xin.onrender.com/"
   },
   {
     title: "AutoCards",
