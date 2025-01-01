@@ -1,4 +1,4 @@
-import React from 'react';
+import TypewriterText from './Typewritertext';
 import { Github, Linkedin, Mail, Phone, MapPin, Code2, } from 'lucide-react';
 import '../styles/gradients.css';
 import '../styles/animations.css';
@@ -7,8 +7,13 @@ const Hero = () => {
   return (
     <div className="min-h-screen gradient-bg flex flex-col md:flex-row items-center justify-center p-8">
       <div className="md:w-1/2 space-y-6">
-        <h1 className="text-5xl font-bold text-white animate-fade-right">
-          Hi, I'm <span className="gradient-text">Aditya Singh</span>
+      <h1 className="text-5xl font-bold text-white">
+          Hi, I'm{' '}
+          <TypewriterText 
+            text="Aditya Singh" 
+            className="gradient-text"
+            delay={100}
+          />
         </h1>
         <p className="text-xl text-gray-300 animate-fade-right delay-100">
         A highly motivated and technically skilled developer with hands-on experience in both frontend and backend technologies, along with strong expertise in data structures and algorithms.
