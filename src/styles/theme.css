@@ -1,0 +1,60 @@
+/* Base colors */
+:root {
+    color-scheme: light;
+    --background-primary: #ffffff;
+    --background-secondary: #f3f4f6;
+    --text-primary: #111827;
+    --text-secondary: #4b5563;
+    --accent-primary: #2563eb;
+    --accent-secondary: #3b82f6;
+  }
+  
+  /* Dark theme colors */
+  :root.dark {
+    color-scheme: dark;
+    --background-primary: #0f172a;
+    --background-secondary: #1e293b;
+    --text-primary: #f3f4f6;
+    --text-secondary: #d1d5db;
+    --accent-primary: #3b82f6;
+    --accent-secondary: #60a5fa;
+  }
+  
+  /* Smooth transitions */
+  .theme-transition {
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                border-color 0.3s ease,
+                transform 0.3s ease;
+  }
+  
+  /* Apply theme colors to common elements */
+  body {
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+  }
+  
+  /* Update gradient backgrounds for dark mode */
+  .dark .gradient-bg {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  }
+  
+  .dark .gradient-skills {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+  }
+  
+  .dark .gradient-experience {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  }
+  
+  .dark .gradient-projects {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  }
+  
+  .dark .gradient-education {
+    background: linear-gradient(135deg, #0f172a 0%, #312e81 100%);
+  }
+  
+  .dark .gradient-contact {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  }
