@@ -36,25 +36,25 @@
   
   /* Update gradient backgrounds for dark mode */
   .dark .gradient-bg {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
   }
   
   .dark .gradient-skills {
-    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
   }
   
   .dark .gradient-experience {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
   }
   
   .dark .gradient-projects {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
   }
   
   .dark .gradient-education {
-    background: linear-gradient(135deg, #0f172a 0%, #312e81 100%);
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
   }
   
   .dark .gradient-contact {
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    background: linear-gradient(135deg, #000000 0%, #000000 100%);
   }

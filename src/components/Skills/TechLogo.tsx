@@ -6,7 +6,6 @@ import {
   SquareAsterisk,
   PackageSearchIcon,
   TriangleIcon,
-  DatabaseBackupIcon,
   DatabaseZapIcon,
   FileType2, 
   BetweenHorizonalStartIcon,

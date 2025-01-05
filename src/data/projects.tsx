@@ -16,10 +16,10 @@ export const projects: ProjectType[] = [
         live: "https://livetracker-5xin.onrender.com/"
       },
       {
-        title: "AutoCards",
+        title: "AutoConnect",
         description: "Developed a responsive, full-stack front-end website using HTML, CSS, and JavaScript, incorporating NFC technology principles.",
-        tech: ["HTML", "CSS", "JavaScript"],
-        github: "https://github.com/yourusername/weather-app",
-        live: "https://weather-dashboard-demo.com"
+        tech: ["React", "Tailwind", "JavaScript"],
+        github: "https://github.com/adiiityasiingh/AutoConnect",
+        live: "https://autoconnect-zeta.vercel.app/"
       }
 ];
