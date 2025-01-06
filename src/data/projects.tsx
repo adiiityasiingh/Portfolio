@@ -17,7 +17,7 @@ export const projects: ProjectType[] = [
       },
       {
         title: "AutoConnect",
-        description: "Developed a responsive, full-stack front-end website using HTML, CSS, and JavaScript, incorporating NFC technology principles.",
+        description: "Currently developing Autoconnect, a platform built using React.js for the frontend and Node.js for the backend, aimed at solving the issue of change (lower denomination of money) during auto rides, inspired by the convenience of MetroCard systems.",
         tech: ["React", "Tailwind", "JavaScript"],
         github: "https://github.com/adiiityasiingh/AutoConnect",
         live: "https://autoconnect-zeta.vercel.app/"
