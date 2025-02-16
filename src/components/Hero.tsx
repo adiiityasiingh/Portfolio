@@ -29,19 +29,19 @@ const Hero = () => {
           
         <div className="flex items-center space-x-3 animate-fade-up delay-200">
             <Github className="w-5 h-5 text-gray-300" />
-            <a href="https://github.com/yourusername" className="text-blue-300 hover:text-blue-200 transition-colors">
+            <a href="https://github.com/adiiityasiingh" className="text-blue-300 hover:text-blue-200 transition-colors">
               github.com/adiiityasiingh
             </a>
           </div>
           <div className="flex items-center space-x-3 animate-fade-up delay-200">
             <Linkedin className="w-5 h-5 text-gray-300" />
-            <a href="https://linkedin.com/in/yourusername" className="text-blue-300 hover:text-blue-200 transition-colors">
+            <a href="https://linkedin.com/in/adiiityasiingh" className="text-blue-300 hover:text-blue-200 transition-colors">
               linkedin.com/in/adiiityasiingh
             </a>
           </div>
           <div className="flex items-center space-x-3 animate-fade-up delay-300">
             <Mail className="w-5 h-5 text-gray-300" />
-            <a href="mailto:your.email@example.com" className="text-blue-300 hover:text-blue-200 transition-colors">
+            <a href="mailto:ad69832@gmail.com" className="text-blue-300 hover:text-blue-200 transition-colors">
               ad69832@gmail.com
             </a>
           </div>

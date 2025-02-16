@@ -1,6 +1,5 @@
 import { Calendar, Briefcase } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
-
 const experiences = [
   {
     title: "Summer Undergraduate Research Intern (SURF)",
