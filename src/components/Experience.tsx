@@ -1,4 +1,3 @@
-import React from 'react';
 import { Calendar, Briefcase } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
 
