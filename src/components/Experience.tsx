@@ -2,17 +2,24 @@ import { Calendar, Briefcase } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
 const experiences = [
   {
+    title: "Software Developer Intern",
+    company: "Techno Billion AI",
+    period: "Apr 2025 - Present",
+    description: "Developed a comprehensive Inventory Management System for a Real Estate company using MongoDB, Express.js, Next.js, and Node.js, streamlining property listings and tracking. Built 20 + RESTful APIs to handle high - volume requests, and collaborated within Agile teams using Jira and Git . Implemented secure authentication and authorization workflows using JWT and OAuth2.0, and followed the MVCarchitecture pattern to enhance code modularity, maintainability, and scalability"
+  },
+  {
+    title: "ReactJS Developer Intern",
+    company: "Celebal Technologies",
+    period: "May 2025 - Jun 2025",
+    description: "Completed an intensive learning program on React.js, gaining hands-on experience in building scalable and component-based frontend applications. Developed and integrated modular, maintainable, and well-documented code across multiple frontend features, reducing future maintenance time by 30%."
+  },
+  {
     title: "Summer Undergraduate Research Intern (SURF)",
     company: "Indian Institute of Technology Delhi",
     period: "Jun 2024 - Aug 2024",
-    description: "Utilized advanced tensiometric sensors and hardware to accurately monitor soil quality and moisture levels, enabling precise environmental assessments for optimized plant growth conditions. "
+    description: "Worked with IoT devices for real-time data extraction and analysis, optimizing system efficiency and automation. Worked with advanced tensiometric sensors to analyze soil moisture and quality, aiding in precision agriculture."
   },
-  {
-    title: "React Developer",
-    company: "Freelance",
-    period: "2024-Present",
-    description: "Designed and developed responsive and dynamic user interfaces using React.js and JavaScript, ensuring seamless user experiences across devices. Implemented reusable components and optimized frontend performance, resulting in 30% faster load times and improved application scalability."
-  }
+
 ];
 
 const Experience = () => {
@@ -24,14 +31,14 @@ const Experience = () => {
         <h2 className={`text-3xl font-bold mb-8 ${isVisible ? 'animate-fade-right' : ''}`}>
           Experience
         </h2>
-        
+
         <div className="relative">
           <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-blue-300/30"></div>
-          
+
           <div className="space-y-12">
             {experiences.map((exp, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className={`relative flex items-start animate-on-scroll ${isVisible ? 'visible' : ''}`}
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
